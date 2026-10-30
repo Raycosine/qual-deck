@@ -55,3 +55,8 @@ npm run tauri build   # 打包，安装包输出到 src-tauri/target/release/bun
 app/             Tauri + React 应用
 source-sample/   示例题库（一场考试）
 ```
+
+## AI 使用说明
+
+- 本应用的代码借助 Claude Code（Claude Opus 5、Claude Opus 5.5）编写。
+- `json/` 中的课程和知识点分类（包括示例题库）由大语言模型生成，可能有误，请以原始 PDF 为准。
