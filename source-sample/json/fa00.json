@@ -1,0 +1,149 @@
+{
+  "source_filename": "540-fa00.pdf",
+  "exam_id": "fa00",
+  "year": 2000,
+  "semester": "fa",
+  "metadata_needs_review": false,
+  "problems": [
+    {
+      "problem_number": 1,
+      "pid": "fa00.1",
+      "course": "535",
+      "secondary_course": null,
+      "course_confidence": 0.95,
+      "topics": [
+        "Differential forms",
+        "Lie group actions",
+        "Lie groups"
+      ],
+      "possible_topics": [],
+      "topic_evidence": {
+        "Differential forms": "The problem is about a 1-form.",
+        "Lie group actions": "The problem mentions invariance under rotations.",
+        "Lie groups": "The problem mentions SO(3)."
+      },
+      "topic_confidence": 0.9,
+      "problem_statement": "Let w be a 1-form defined on the sphere S² = {x ∈ R³||x| = 1}. Assume w is invariant\nunder rotations, i.e. *w = w for any ∈ SO(3), show w = 0.",
+      "evidence": "The problem involves a differential form on a sphere and its behavior under rotations by SO(3).",
+      "needs_review": false,
+      "review_reason": null,
+      "additional_topic_suggestion": null
+    },
+    {
+      "problem_number": 2,
+      "pid": "fa00.2",
+      "course": "535",
+      "secondary_course": null,
+      "course_confidence": 0.95,
+      "topics": [
+        "Smooth manifolds",
+        "Submanifolds",
+        "Regular values"
+      ],
+      "possible_topics": [],
+      "topic_evidence": {
+        "Smooth manifolds": "The problem asks to show that a set is a smooth orientable surface.",
+        "Submanifolds": "The set is a submanifold.",
+        "Regular values": "Showing it's a submanifold likely involves the regular value theorem."
+      },
+      "topic_confidence": 0.9,
+      "problem_statement": "Show the set M = {x ∈ R¹|x1X2 = X3X4, X = 1} is a smooth orientable surface.",
+      "evidence": "The problem asks to show that a given set is a smooth orientable surface.",
+      "needs_review": false,
+      "review_reason": null,
+      "additional_topic_suggestion": null
+    },
+    {
+      "problem_number": 3,
+      "pid": "fa00.3",
+      "course": "535",
+      "secondary_course": null,
+      "course_confidence": 0.85,
+      "topics": [
+        "Smooth manifolds",
+        "Diffeomorphisms",
+        "Submersions"
+      ],
+      "possible_topics": [],
+      "topic_evidence": {
+        "Smooth manifolds": "The problem involves smooth manifolds and maps.",
+        "Diffeomorphisms": "Part (a) asks if the map is locally a diffeomorphism.",
+        "Submersions": "Since the rank is n, it's a submersion."
+      },
+      "topic_confidence": 0.8,
+      "problem_statement": "Let M, N be smooth manifolds of dimension n, and : M → N be a smooth map which\nis onto and has rank n at each point. Prove or disprove the statements:\na) is locally a diffeomorphism;\nb) is a covering map.",
+      "evidence": "The problem deals with smooth manifolds, smooth maps, and the properties of diffeomorphisms and covering maps.",
+      "needs_review": true,
+      "review_reason": "Part (b) involves covering maps, which could be in 540, but the overall flavor is 535. Requires review to decide if this is more about the smooth map itself or about the covering space in the algebraic topology sense.",
+      "additional_topic_suggestion": null
+    },
+    {
+      "problem_number": 4,
+      "pid": "fa00.4",
+      "course": "540",
+      "secondary_course": null,
+      "course_confidence": 0.95,
+      "topics": [
+        "Fundamental group",
+        "Homotopy equivalence"
+      ],
+      "possible_topics": [],
+      "topic_evidence": {
+        "Fundamental group": "The problem asks to compute the fundamental group.",
+        "Homotopy equivalence": "Computing the fundamental group is often done after finding a homotopy equivalence."
+      },
+      "topic_confidence": 0.9,
+      "problem_statement": "Let S¹ be the unit circle in R² = R2 x {0} CR³. Compute the fundamental group of\nR3-S1.",
+      "evidence": "The problem asks for the fundamental group of a space, which is a core topic in algebraic topology.",
+      "needs_review": false,
+      "review_reason": null,
+      "additional_topic_suggestion": null
+    },
+    {
+      "problem_number": 5,
+      "pid": "fa00.5",
+      "course": "540",
+      "secondary_course": null,
+      "course_confidence": 0.95,
+      "topics": [
+        "Singular homology",
+        "Homology of spheres"
+      ],
+      "possible_topics": [],
+      "topic_evidence": {
+        "Singular homology": "The problem asks to compute the homology.",
+        "Homology of spheres": "The space is related to S¹."
+      },
+      "topic_confidence": 0.9,
+      "problem_statement": "Compute the homology of R³ - S¹ with coefficients in Z.",
+      "evidence": "The problem asks to compute the homology of a space, which is a central problem in algebraic topology.",
+      "needs_review": false,
+      "review_reason": null,
+      "additional_topic_suggestion": null
+    },
+    {
+      "problem_number": 6,
+      "pid": "fa00.6",
+      "course": "540",
+      "secondary_course": null,
+      "course_confidence": 0.95,
+      "topics": [
+        "Homotopy of maps",
+        "Fundamental group",
+        "Homotopy equivalence"
+      ],
+      "possible_topics": [],
+      "topic_evidence": {
+        "Homotopy of maps": "Part (b) asks about homotopy to a constant map.",
+        "Fundamental group": "Part (a) refers to the induced homomorphism on fundamental groups.",
+        "Homotopy equivalence": "If a map is homotopic to a constant map, many things are trivial."
+      },
+      "topic_confidence": 0.9,
+      "problem_statement": "Let f: RP2→ T2 be a continuous map from the projective plane RP2 to the torus\nT2 = S1 x S1.\n(a) Show that the induced homomorphism f.: π₁ (RP2) → π₁(T2) is trivial.\n(b) Show that f is homotopic to a constant map.",
+      "evidence": "The problem deals with the fundamental groups of projective space and the torus, and homotopy between maps.",
+      "needs_review": false,
+      "review_reason": null,
+      "additional_topic_suggestion": null
+    }
+  ]
+}

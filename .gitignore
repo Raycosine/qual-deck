@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.claude/
+gemini-conversation-*.json
+app_dev.md
+source-sample1/
+source-sample2/
+app/node_modules/
+app/dist/
+app/src-tauri/target/
+app/src-tauri/gen/schemas/

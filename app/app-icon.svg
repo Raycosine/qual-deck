@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- QualDeck app icon. Original design drawn on a Lucide-style 24px grid
+       (2px stroke, round caps/joins): a deck of two cards with a sigma. -->
+  <rect x="0" y="0" width="1024" height="1024" rx="232" fill="#0f172a"/>
+  <g transform="translate(104 104) scale(34)" fill="none" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <!-- shift so the glyph's bounding box sits on the optical centre -->
+    <g transform="translate(0.5 -0.5)">
+      <!-- back card: only the edges peeking out from behind -->
+      <path d="M8 3h9a2 2 0 0 1 2 2v13" stroke="#94a3b8"/>
+      <!-- front card -->
+      <rect x="4" y="7" width="12" height="15" rx="2" stroke="#f8fafc"/>
+      <!-- sigma -->
+      <path d="M13 10.5H7l3 4-3 4h6" stroke="#f8fafc"/>
+    </g>
+  </g>
+</svg>

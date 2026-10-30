@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QualifyingExamClassification",
+  "type": "object",
+  "required": [
+    "source_filename",
+    "exam_id",
+    "year",
+    "semester",
+    "metadata_needs_review",
+    "problems"
+  ],
+  "properties": {
+    "source_filename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "exam_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "year": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "semester": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "fa",
+        "sp",
+        null
+      ]
+    },
+    "metadata_needs_review": {
+      "type": "boolean"
+    },
+    "problems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "problem_number",
+          "pid",
+          "course",
+          "secondary_course",
+          "course_confidence",
+          "topics",
+          "possible_topics",
+          "topic_evidence",
+          "topic_confidence",
+          "problem_statement",
+          "evidence",
+          "needs_review",
+          "review_reason",
+          "additional_topic_suggestion"
+        ],
+        "properties": {
+          "problem_number": {
+            "type": [
+              "integer",
+              "string"
+            ]
+          },
+          "pid": {
+            "type": "string"
+          },
+          "course": {
+            "type": "string",
+            "enum": [
+              "535",
+              "540"
+            ]
+          },
+          "secondary_course": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "535",
+              "540",
+              null
+            ]
+          },
+          "course_confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "possible_topics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "topic_evidence": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "topic_confidence": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "problem_statement": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "needs_review": {
+            "type": "boolean"
+          },
+          "review_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "additional_topic_suggestion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
