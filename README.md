@@ -18,7 +18,16 @@ QualDeck imports past exam problems (classified into courses and topics as JSON)
 
 ## Download
 
-Get the Windows installer from [Releases](../../releases). The build is unsigned, so Windows SmartScreen may warn you — choose **More info → Run anyway**.
+Get the installer for your system from [Releases](../../releases).
+
+| System | x64 | ARM64 |
+|---|---|---|
+| Windows 10 / 11 | `QualDeck_<version>_x64-setup.exe` or `.msi` | `QualDeck_<version>_arm64-setup.exe` or `.msi` |
+| Ubuntu / Debian | `QualDeck_<version>_amd64.deb` | `QualDeck_<version>_arm64.deb` |
+| Fedora / RHEL | `QualDeck-<version>-1.x86_64.rpm` | `QualDeck-<version>-1.aarch64.rpm` |
+| Other Linux | `QualDeck_<version>_amd64.AppImage` | `QualDeck_<version>_aarch64.AppImage` |
+
+The Windows builds are unsigned, so SmartScreen may warn you — choose **More info → Run anyway**.
 
 ## Source library
 

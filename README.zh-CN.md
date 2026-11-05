@@ -18,7 +18,16 @@
 
 ## 下载
 
-在 [Releases](../../releases) 下载 Windows 安装包。安装包未签名，Windows SmartScreen 可能会提示风险，点 **更多信息 → 仍要运行** 即可。
+在 [Releases](../../releases) 下载对应系统的安装包。
+
+| 系统 | x64 | ARM64 |
+|---|---|---|
+| Windows 10 / 11 | `QualDeck_<版本>_x64-setup.exe` 或 `.msi` | `QualDeck_<版本>_arm64-setup.exe` 或 `.msi` |
+| Ubuntu / Debian | `QualDeck_<版本>_amd64.deb` | `QualDeck_<版本>_arm64.deb` |
+| Fedora / RHEL | `QualDeck-<版本>-1.x86_64.rpm` | `QualDeck-<版本>-1.aarch64.rpm` |
+| 其他 Linux | `QualDeck_<版本>_amd64.AppImage` | `QualDeck_<版本>_aarch64.AppImage` |
+
+Windows 安装包未签名，SmartScreen 可能会提示风险，点 **更多信息 → 仍要运行** 即可。
 
 ## 题库文件夹（Source library）
 
