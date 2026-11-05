@@ -22,6 +22,8 @@
 
 ## 题库文件夹（Source library）
 
+**完整题库在 [Google Drive](https://drive.google.com/drive/folders/1YJfb3cpHMGDOvLMAvVpIU4_uMTAYfq2d?usp=sharing)，需要使用我们学校的 edu 邮箱登录才能访问。**
+
 首次启动时，QualDeck 会让你选择一个**题库文件夹**。应用只读取该文件夹，学习记录单独保存在 SQLite 数据库中。
 
 ```text

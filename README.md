@@ -22,7 +22,7 @@ Get the Windows installer from [Releases](../../releases). The build is unsigned
 
 ## Source library
 
-**The source folders will be shared on Google Drive later today! 20261104**
+**The full source library is available on [Google Drive](https://drive.google.com/drive/folders/1YJfb3cpHMGDOvLMAvVpIU4_uMTAYfq2d?usp=sharing). Sign in with our university's .edu email account to access it.**
 
 On first launch, QualDeck asks for a **source library** folder. The app only reads from it; your study records are kept in a separate SQLite database.
 
