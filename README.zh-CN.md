@@ -6,6 +6,27 @@
 
 基于 Tauri v2、React、TypeScript 和 SQLite 构建。
 
+![QualDeck 仪表盘](docs/screenshots/dashboard.png)
+
+<details>
+<summary>更多截图</summary>
+
+![考试](docs/screenshots/exams.png)
+
+![模拟考试](docs/screenshots/virtual-exam.png)
+
+![PDF 阅读器和笔记](docs/screenshots/pdf-notes.png)
+
+![题目](docs/screenshots/problems.png)
+
+![知识点](docs/screenshots/topics.png)
+
+![题单](docs/screenshots/lists.png)
+
+![掌握度总览](docs/screenshots/overview.png)
+
+</details>
+
 ## 功能
 
 - 按考试、课程或知识点浏览题目

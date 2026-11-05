@@ -6,6 +6,27 @@ A local desktop app for preparing for math qualifying exams with spaced repetiti
 
 QualDeck imports past exam problems (classified into courses and topics as JSON), links them to the original exam and solution PDFs, and helps you track attempts and schedule reviews. All data stays on your machine.
 
+![QualDeck dashboard](docs/screenshots/dashboard.png)
+
+<details>
+<summary>More screenshots</summary>
+
+![Exams](docs/screenshots/exams.png)
+
+![Virtual exam](docs/screenshots/virtual-exam.png)
+
+![PDF viewer and notes](docs/screenshots/pdf-notes.png)
+
+![Problems](docs/screenshots/problems.png)
+
+![Topics](docs/screenshots/topics.png)
+
+![Lists](docs/screenshots/lists.png)
+
+![Mastery overview](docs/screenshots/overview.png)
+
+</details>
+
 ## Features
 
 - Browse problems by exam, course or topic
